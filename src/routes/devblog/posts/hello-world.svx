@@ -1,8 +1,8 @@
 ---
-title: "Hello World"
-date: "2026-04-01"
-effort: "low/medium/high"
-meme: "https://miro.medium.com/1*CqPTchUH9z-c6wsMtcw6vw.png"
+title: "Uppstart träningsdagbok"
+date: "2026-04-20"
+effort: "low"
+meme: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc28zdGxsdzM5d3N6Z24wdzBqZXk0czRqNGFzYXNuOGFoMzd0MjVrNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/udiIFmPkJQzkI/giphy.gif"
 ---
 
 <script lang="ts">
@@ -10,19 +10,36 @@ meme: "https://miro.medium.com/1*CqPTchUH9z-c6wsMtcw6vw.png"
 </script>
 
 
-# Hello 👋
+# Heej 👋
 
-Welcome to my first devblog post!
-Each post is written in MDX format, which allows you to use Svelte components inside your posts - such as this CodeBlock. 
+Välkommen till mitt första dev-blogg inlägg!
+
 <br>
-Each post needs to have a title, a date and a photo in the frontmatter, between the --- tags.
+
+Jag har under dem senaste lektionerna påbörjat starten för vad som ska komma att bli en träningsdagbok. Träningsdagbokens syfte är att man enkelt ska kunna registrera och få en bättre översikt av sin träning.   
+
+<br>
+
+Jag har jobbat med stylingen på sidan och målet har varit att få upp ett veckoschema där träningspassen sedan ska synas. 
+
+Det som har krånglat och varit svårt är att få till en snygg placering på dagarna. Jag vill att det ska vara två rader, där de tre första dagarna är överst och resten på en rad under. Men eftersom det inte är jämnt antal så ser det inte så snyggt ut och det har jag försökt fixa. Jag vill att den övre raden ska vara centrerad rakt över den nedre raden, det ska vara som att den övre raden ligger mellan dagarna på den nedre raden. Det ska efterlikna en pyramid. Det har varit svårt och jag har ännu inte hunnit fixa det. 
+Jag har lärt mig hur man kan bygga och använda sig av gridbox för att skapa ett snyggt veckoschema där varje dag har en separat ruta med eget veckonamn. 
+
+<br>
+
+Kort sammanfattning av det jag gjort:
+* -Veckoschema
+* -Knapp för att lägga till nya pass 
+* -Stylat sidan 
+
+<br>
+
+Inför nästa lektion:
+* -Göra klart stylingen för veckoschemat
+* -Påbörja formuläret som ska visas när man trycker på +Lägg till pass
+
+<br>
 
 
-<div class="p-10 space-y-4">
-	<CodeBlock code="npx sv create my-skeleton-app" lang="bash" />
-	<CodeBlock code="<div class=&quot;bg-green-500&quot;" lang="html" />
-	<CodeBlock code=".foobar &#123; background: green; &#125;" lang="css" />
-	<CodeBlock code="const foot = 'bar';" lang="js" />
-</div>
 
 

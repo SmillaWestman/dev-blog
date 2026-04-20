@@ -1,6 +1,6 @@
 ---
 title: "Seg start"
-date: "2026-04-14"
+date: "2026-04-20"
 effort: "låg"
 meme: "https://i.programmerhumor.io/2023/03/programmerhumor-io-programming-memes-b592bb1eb466dde.png"
 ---
