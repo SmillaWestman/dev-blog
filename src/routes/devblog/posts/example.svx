@@ -1,27 +1,33 @@
 ---
-title: Example
-date: "2026-04-20"
-effort: "high"
-meme: "https://media.tenor.com/CWgfFh7ozHkAAAAM/rick-astly-rick-rolled.gif"
+title: Fortsättning träningsdagbok
+date: "2026-04-28"
+effort: "medel"
+meme: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmdzemozYWE3eGkyODZ0NWd0cXlkNmlqcnZycWc2dXNjdWN2aHRheSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/llmZp6fCVb4ju/giphy.gif"
 ---
-# Onewordtitle
-## Description
-Getting started with something is always one of the hardest parts of a project (at least for me). So I decided to use this [tutorial](https://youtu.be/ydR_M0fw9Xc) to help me find my way into Svelte and to give me an idea of what I want to build.
 
-Having done that tutorial, plus some addational research because there were breaking changes with fetching data since the tutorial has been published, I was presented with a nice looking cool website.
+Jag har under dem senaste lektionerna fortsatt att jobba med stylingen på min sida och gjort klart det jag inte hann förra gången. Det vill säga, fixat stylingen för alla veckodagarna. Jag har även börjat skapa formuläret som ska öppnas när man klickar + Lägg till pass. Där ska man kunna fylla i dag, typ av träningspass, antal minuter, och ansträgningsgrad på passet. 
 
-## Changes
-The following changes and implementations have been made in that version of the project:
-* Several fetch functions to the [themoviedb API](https://developers.themoviedb.org/3) to get the popular and searched movies
-* Styling and structuring the page using components
-* 
-
-To get a better view on the changes proposed in that first version it is easier to watch the tutorial, it gives you a much better insight into what I started with.
-
-## Features
-✅ Popular movies  
-✅ Search function      
-
-<hr>
 <br>
-Commit: <a href="<<link to commit>>" target="_blank">Version 0.0.x</a>
+
+## Svårt:
+* -Skapa formulär där man kan fylla i all information om passet
+* -Få passen att läggas till under rätt dag när man klickar + Lägg till pass
+
+<br>
+
+## Lärt mig:
+* -Koppla knappen till formuläret som öppnas när man klickar på +  Lägg till pass
+
+<br>
+
+## Gjort:
+* ✅ Fixat stylingen för alla veckodagar 
+* ✅ Påbörjat formuläret för att kunna lägga till nya pass  
+
+<br>
+
+## Inför nästa lektion:
+* -Göra klart formuläret
+* -Fixa så att passen läggs till under rätt pass när man klickar + Lägg till pass
+
+<br>
